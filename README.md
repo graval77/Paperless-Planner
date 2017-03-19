@@ -22,8 +22,11 @@ db.user_collection.updateOne({ username: "user1" }, { $set: { "admin": "yes"} }
 3. Admin will have an admin panel:
 1. Block or reactivate user.
 How to Set Up:
+
  Run npm install.
+
  Run node server.js
+
  Go to http://localhost:3000
 Flow of navigation:
 1. Normal User –
